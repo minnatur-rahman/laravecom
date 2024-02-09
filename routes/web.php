@@ -17,4 +17,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::view('')
+Route::view('/example-page','example-page');
+Route::view('/example-auth','example-auth');
+
