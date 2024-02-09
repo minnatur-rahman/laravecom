@@ -8,7 +8,7 @@ use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 use Laravel\Sanctum\HasApiTokens;
 
-class Admin extends Authenticatable
+class Seller extends Authenticatable
 {
     use HasApiTokens, HasFactory, Notifiable;
 
@@ -17,7 +17,7 @@ class Admin extends Authenticatable
      *
      * @var array<int, string>
      */
-    protected $fillable = [ ];
+    protected $fillable = [];
 
     /**
      * The attributes that should be hidden for serialization.
