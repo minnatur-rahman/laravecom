@@ -45,7 +45,6 @@
 		/>
 		<link rel="stylesheet" type="text/css" href="/back/vendors/styles/style.css" />
 
-
 		<script>
 			(function (w, d, s, l, i) {
 				w[l] = w[l] || [];
@@ -60,7 +59,6 @@
 		</script>
 		<!-- End Google Tag Manager -->
         @stack('stylesheets')
-
 	</head>
 	<body>
 		{{-- <div class="pre-loader">
@@ -718,7 +716,9 @@
 						</div>
 					</div>
 					<div class="pd-20 bg-white border-radius-4 box-shadow mb-30">
+
                         @yield('content')
+
                     </div>
 				</div>
 				<div class="footer-wrap pd-20 mb-20 card-box">

@@ -1,4 +1,4 @@
-@extends('back.layout.pages-layout')
+@extends('back.layout.auth-layout')
 <?php $__env->startSection('pageTitle', null !== ($pageTitle ?? null) ? $pageTitle : 'page title here'); ?>
 
 @section('content')
